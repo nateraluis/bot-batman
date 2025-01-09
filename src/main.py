@@ -77,9 +77,10 @@ def generate_payload_cc():
             "cvv": generate_cvv()}
 
 if __name__ == "__main__":
-    payload_personal_data = generate_payload_personal_data()
-    response_personal_data = send_personal_data(payload_personal_data)
-    payload_cc = generate_payload_cc()
-    response_cc = send_cc_data(payload_cc)
-    print(payload_personal_data["nom"], response_personal_data.status_code, response_cc.status_code)
+    for runner in range(random.randint(100,1000):
+        payload_personal_data = generate_payload_personal_data()
+        response_personal_data = send_personal_data(payload_personal_data)
+        payload_cc = generate_payload_cc()
+        response_cc = send_cc_data(payload_cc)
+        print(payload_personal_data["nom"], response_personal_data.status_code, response_cc.status_code)
 

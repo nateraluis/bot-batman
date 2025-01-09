@@ -25,4 +25,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: 🦹‍♀️Fight crime
-        run: python src/main.py
+        run: python -u src/main.py

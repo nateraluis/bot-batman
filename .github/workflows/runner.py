@@ -1,4 +1,4 @@
-name: 🐘 mastodon likes
+name: 🏃 Runner
 on:
 
   schedule:

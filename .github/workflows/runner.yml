@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  blog_post:
+  fight_crime:
     runs-on: ubuntu-latest
 
     steps:
